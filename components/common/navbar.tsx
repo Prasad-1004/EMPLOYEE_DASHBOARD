@@ -1,0 +1,2 @@
+import { logoutUser } from '@/actions/auth-actions';
+export function Navbar(){return <header className="sticky top-0 z-30 flex h-16 items-center justify-between border-b bg-white/95 px-4 backdrop-blur sm:px-6"><div className="font-semibold text-slate-800">HR & Workforce Analytics</div><form action={logoutUser}><button className="rounded-lg border px-4 py-2 text-sm font-medium hover:bg-slate-50">Logout</button></form></header>}
